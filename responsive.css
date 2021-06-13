@@ -1,0 +1,15 @@
+@media only screen and (max-width: 992px) {
+  .spinText {
+    transform: translateY(30%);
+  }
+  .nav-item a {
+    width: 120px;
+    border-bottom: 1px solid grey;
+  }
+  .w-50 {
+    width: 100% !important;
+  }
+  #background-image .w-50 {
+    width: 50% !important;
+  }
+}

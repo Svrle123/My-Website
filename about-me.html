@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <title>About me - Ivan Svrtan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!--Navbar start-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+        <a
+          href="index.html"
+          class="navbar-brand"
+          style="font-weight: lighter; font-size: 25px"
+          ><ul class="spinText">
+            <li>W</li>
+            <li>e</li>
+            <li>l</li>
+            <li>c</li>
+            <li>o</li>
+            <li>m</li>
+            <li>e</li>
+            <li>!</li>
+          </ul></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ms-auto py-3">
+              <a
+                href="#"
+                class="nav-link text-light"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Work in progress"
+                ><i class="bi bi-clipboard-data"></i>
+                Stat's table project
+              </a>
+            </li>
+            <li class="nav-item ms-auto py-3">
+              <a href="about-me.html" class="nav-link text-light"
+                ><i class="bi bi-person-circle"></i>
+                About me
+                </a>
+            </li>
+            <li class="nav-item ms-auto py-3">
+              <a href="contact-me.html" class="nav-link text-light">
+                <i class="bi bi-person-lines-fill"></i>
+                  Contact me
+                </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Carousel-->
+    <section class="bg-secondary text-dark py-5">
+      <div class="container">
+        <div
+          id="carouselAboutMe"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselAboutMe"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselAboutMe"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselAboutMe"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselAboutMe"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img
+                src="images/slide-01.jpg"
+                class="d-block w-100"
+                alt="Picture of a guitar player"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 style="color: #f8f9fa; font-weight: bold; font-size: 25px">
+                  I have 5 years experiance as a Maintenance Electrician!
+                </h5>
+                <p style="color: #f8f9fa; font-weight: bold; font-size: 20px">
+                  I used to work in a company called Karolina which is a member
+                  of Kraš group.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img
+                src="images/slide-02.jpg"
+                class="d-block w-100"
+                alt="Picture of 3D printer's nozzle"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 style="color: #f8f9fa; font-weight: bold; font-size: 25px">
+                  I have done 3D modeling!
+                </h5>
+                <p style="color: #f8f9fa; font-weight: bold; font-size: 20px"">
+                  I bought my first printer in 2018 and have made models since.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img
+                src="images/slide-03.jpg"
+                class="d-block w-100"
+                alt="Picture of weight at the gym"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 style="color: #f8f9fa; font-weight: bold; font-size: 25px"">
+                  I'm a guitar player!
+                </h5>
+                <p style="color: #f8f9fa; font-weight: bold; font-size: 20px"">
+                  I started learning guitar in April of 2020.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img
+                src="images/slide-04.jpg"
+                class="d-block w-100"
+                alt="Picture of weight at the gym"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 style="color: #f8f9fa; font-weight: bold; font-size: 25px">
+                  I'm also into fitness!
+                </h5>
+                <p style="color: #f8f9fa; font-weight: bold; font-size: 20px">
+                  Since my highschool days i've been going to the gym.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselAboutMe"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselAboutMe"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--Maintenance Electrician!-->
+    <section class="bg-dark text-light p-5 text-center">
+      <div class="container">
+        <div class="d-lg-flex align-items-center justify-content-between">
+          <div class="p-2">
+            <h1>
+              Becoming a<span class="text-warning">
+                Maintenance Electrician</span
+              >
+            </h1>
+            <p class="lead">
+              I went to highschool to become a electrotechnician, this is where
+              i was introduced to programming for the first time. After
+              finishing highschool I went to the Faculty of Electrical
+              Engineering, Computer Science and Information Technology in Osijek
+              to study electro-energetics. I dropped out after the first
+              semester seeing as it was not for me and in the meantime got a
+              job. A job that would last for 5 years, in which I got very good
+              at and mentored two new electricians. I quit the job not because
+              it was bad or hard, but because i had a passion for programming
+              which I wanted to puruse.
+            </p>
+            <a
+              href="https://www.google.com/maps/place/Karolina+d.o.o.+%C4%8Dlanica+Kra%C5%A1+grupe/@45.5518299,18.7379752,14z/data=!4m5!3m4!1s0x475ce870db8dd5a3:0x67f28d4043f7ba5!8m2!3d45.5519109!4d18.7348057"
+              class="btn btn-light btn-lg active"
+              target="_blank"
+              role="button"
+              id="linkButton"
+              aria-pressed="true"
+              >Where I worked!</a
+            >
+          </div>
+          <img
+            class="img-fluid w-50 p-2 d-none d-sm-block "
+            src="images/pfm-pakerica.jpg"
+            alt="A picture of PFM's packaging machine"
+          />
+        </div>
+      </div>
+    </section>
+    <!--3D modeling-->
+    <section class="bg-secondary text-light p-5 text-center">
+        <div class="container">
+            <div class="d-lg-flex">
+                <img class="img-fluid w-50 p-2 d-none d-sm-block" src="images/3d-model-gif.gif" alt="GIF of a 3D model bear">
+                <div class="p-2">
+                <h1>Getting into <span class="text-warning">3D Modeling</span></h1>
+                <p class="lead">I'm always fascinated by new technologies and 3D printing really caught my eye,
+                     since it became cheaper to get into the hobby. I started off printing the simple things and testing the limits of my printer the "Ender 3 - Pro". 
+                     After some time I got into modeling, using programs like Blender and Fusion 360 and really started to like the process of making whatever you can think of.
+                     I made alot of models just for fun, but I also made models for others when they needed something that was expensive  but I knew I could make in 4 hours for a 10th of the cost.
+                     My proudest point is making models for the company I worked at and adding them to a new million dollar machine.
+                </p>
+                <a
+              href="https://www.thingiverse.com/svrle1988/designs"
+              class="btn btn-dark btn-lg active"
+              target="_blank"
+              role="button"
+              id="linkButton"
+              aria-pressed="true"
+              >Thingiverse page</a
+            >
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Guitar player-->
+    <section class="bg-dark text-light p-5 text-center">
+      <div class="container">
+        <div class="d-lg-flex align-items-center justify-content-between">
+          <div class="p-2">
+            <h1>
+              Playing the <span class="text-warning">
+                Guitar</span
+              >
+            </h1>
+            <p class="lead">
+              I started playing guitar because of the idea that you can create your own sound.
+              And recreate the sounds that you love hearing in different kinds of songs. The song that 
+              that made me get a guitar was Blind Guardian's - The Bard's Song, and I still love it.
+              I got a couple of my friends to pick up musical instruments just by showing them what you can 
+              accomplish in a few months if you enjoy the hobby. Also today it's easy to find great tutorials and teachers online for free.
+            </p>
+            <a
+              href="https://www.youtube.com/watch?v=n63UbX5kzAc"
+              class="btn btn-light btn-lg active"
+              target="_blank"
+              role="button"
+              id="linkButton"
+              aria-pressed="true"
+              >Where it started</a
+            >
+          </div>
+          <img
+            class="img-fluid w-50 p-2 d-none d-sm-block "
+            src="images/gitara.jpg"
+            alt="A picture of PFM's packaging machine"
+          />
+        </div>
+      </div>
+    </section>
+    <!--Fitness-->
+    <section class="bg-secondary text-light p-5 text-center">
+      <div class="container">
+          <div class="d-lg-flex">
+              <img class="img-fluid w-50 p-2 d-none d-sm-block" src="images/bench-press.jpg" alt="GIF of a 3D model bear">
+              <div class="p-2">
+              <h1>Getting into <span class="text-warning">Fitness</span></h1>
+              <p class="lead">By the end of highschool a couple of my friends and I started going to the gym. In the beginning it was tough but fun since whatever we did we did together. Through the years I was on and off with going to the gym because of my jobs working schedule. As I quit my job in May of 2021, I have all the time now to study Web Development and be a regular gymgoer.
+              </p>
+              <a
+            href="https://www.instagram.com/p/Bi45C24HP_H/"
+            class="btn btn-dark btn-lg active"
+            target="_blank"
+            role="button"
+            id="linkButton"
+            aria-pressed="true"
+            >ONE MORE</a>
+              </div>
+          </div>
+      </div>
+  </section>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+  crossorigin="anonymous"
+></script>
+  </body>
+</html>

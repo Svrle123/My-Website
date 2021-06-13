@@ -1,0 +1,49 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.carousel-inner .carousel-item img {
+  opacity: 0.6;
+}
+.spinText {
+  position: absolute;
+  top: 0;
+  transform: translateY(70%);
+}
+.spinText li {
+  list-style: none;
+  float: left;
+  transition: 2s;
+  margin-right: 5px;
+}
+.spinText:hover li {
+  transform: rotateY(360deg);
+}
+.nav-link i {
+  margin-right: 5px;
+}
+.bg-dark {
+  background: linear-gradient(to right, #212529, #464a4e);
+}
+.bg-secondary {
+  background: linear-gradient(to right, #7a8186, #6c757d);
+}
+.container .d-lg-flex img {
+  opacity: 0.7;
+}
+.card {
+  border: 0;
+  background-color: #fff !important;
+}
+#background-image {
+  background: url("images/background-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  z-index: -1;
+}
+#linkButton {
+  transition: transform 0.2s;
+}
+#linkButton:hover {
+  transform: scale(1.3);
+}
