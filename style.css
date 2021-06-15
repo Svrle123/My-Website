@@ -1,6 +1,9 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+.carousel-caption {
+  top: 1.25rem;
+}
 .carousel-inner .carousel-item img {
   opacity: 0.6;
 }
