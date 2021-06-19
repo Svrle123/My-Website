@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <title>Stat's Table Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body class="bg-secondary">
+    <!--Navbar start-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+        <div class="navbar-brand" style="font-weight: lighter; font-size: 25px">
+          <ul class="spinText">
+            <li><i class="bi bi-table"></i></li>
+          </ul>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ms-auto py-3 px-2">
+              <a href="index.html" class="nav-link text-light"
+                ><i class="bi bi-house-fill"></i>
+                Home
+              </a>
+            </li>
+            <li class="nav-item ms-auto py-3 px-2">
+              <a href="stats-table.html" class="nav-link text-light"
+                ><i class="bi bi-clipboard-data"></i>
+                Stat's table project
+              </a>
+            </li>
+            <li class="nav-item ms-auto py-3 px-2">
+              <a href="about-me.html" class="nav-link text-light"
+                ><i class="bi bi-person-circle"></i>
+                About me
+              </a>
+            </li>
+            <li class="nav-item ms-auto py-3 px-2">
+              <a href="contact-me.html" class="nav-link text-light"
+                ><i class="bi bi-person-lines-fill"></i>Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Table Creator and Instructions-->
+    <section class="bg-secondary p-5 mt-5">
+      <div class="container">
+        <div class="row text-light text-center">
+          <div class="col-lg-6">
+            <label for="gameName" class="col-12 col-md-12 mb-5 lead"
+              >Name of your Game
+              <input
+                type="text"
+                name="gameName"
+                id="gameName"
+                class="text-center"
+            /></label>
+            <label for="players" class="col-12 col-md-12 mb-5 lead"
+              >Number of Players
+              <input
+                type="number"
+                name="players"
+                id="players"
+                class="text-center"
+            /></label>
+            <label for="system" class="col-12 col-md-12 mb-5 lead"
+              >Pick your System
+              <select
+                name="system"
+                id="system"
+                style="width: 251px; height: 36px"
+              >
+                <option value="kda">Kill/Death/Assist</option>
+                <option value="wld">Win/Lose/Draw</option>
+              </select>
+            </label>
+            <button class="btn-lg btn-primary mt-4 mb-5" id="createTable">
+              Create
+            </button>
+            <button class="btn-lg btn-danger mt-4 mb-5" id="removeTable">
+              Remove
+            </button>
+          </div>
+          <div class="col-lg-6 text-center">
+            <h2 class="mb-3">Welcome to the Table Creating app</h2>
+            <p class="lead mb-3" id="hoverText">Let's get started!</p>
+            <p id="instructions" class="lead text-dark" style="margin-top: 15%">
+              To create a new Game Table please fill in the empty fields. When
+              you're done click the Create button to make the table. You can
+              remove a table by double clicking its title and then clicking the
+              Remove button.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Created Tables here-->
+    <section class="p-5 bg-dark">
+      <div class="container">
+        <div id="tables" class="text-center table-responsive"></div>
+      </div>
+    </section>
+    <script src="Stat's table/jquarey.js"></script>
+    <script src="Stat's table/index.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/TableDnD/0.9.1/jquery.tablednd.js"
+      integrity="sha256-d3rtug+Hg1GZPB7Y/yTcRixO/wlI78+2m08tosoRn7A="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

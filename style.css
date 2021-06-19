@@ -79,3 +79,30 @@
   background-repeat: no-repeat;
   height: 881px;
 }
+.tDnD_whileDrag td {
+  background-color: #fff;
+  -webkit-box-shadow: 6px 3px 5px #555, 0 1px 0 #ccc inset, 0 -1px 0 #ccc inset;
+}
+td input {
+  text-align: center;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+thead tr {
+  cursor: unset !important;
+}
+thead tr th button {
+  width: 100%;
+  border: unset;
+  background: inherit;
+}
+.activeTitle thead tr th.lead {
+  background-color: #dc3545 !important;
+  color: #000;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
