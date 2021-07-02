@@ -86,6 +86,3 @@ $("#removeTable").click(function () {
     }
   });
 });
-
-// onkeypress u bilo koje polje koje je type number
-//uzeti k+a /d i promjeniti kda polje sa rezultatom
